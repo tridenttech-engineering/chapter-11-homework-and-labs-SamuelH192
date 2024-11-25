@@ -1,5 +1,5 @@
 //Introductory21.cpp - Displays the average stock price
-//Created/revised by <your name> on <current date>
+//Created/revised by Samuel Hollenbeck on 11/23/2024
 
 #include <iostream>
 #include <iomanip>
@@ -11,9 +11,12 @@ int main()
 	double total = 0.0;
 	double average = 0.0;
 
+	//calculations
+	total = (prices[0] + prices[1] + prices[2] + prices[3] + prices[4] + prices[5] + prices[6] + prices[7] + prices[8] + prices[9]);
+	average = total / 10;
 
+	//display average
 	cout << fixed << setprecision(2);
 	cout << "Average stock price: $" << average << endl;
 	return 0;
 }	//end of main function
-
